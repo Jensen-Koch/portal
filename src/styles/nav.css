@@ -1,0 +1,86 @@
+.navbar {
+  background-color: #282828;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bars {
+  font-size: 2rem;
+  background: none;
+  padding: 1rem;
+}
+
+.logo-nav {
+  width: 65px;
+  padding: 1rem;
+}
+
+.menu-x {
+  font-size: 2.5rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #282828;
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: all 0.5s;
+  z-index: 1;
+  padding-left: 1rem;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+}
+
+.link-name {
+  text-decoration: none;
+  color: #F5F5F5;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-right: 40px;
+  border-radius: 4px;
+}
+
+.link-name:hover {
+  background: linear-gradient(90deg, #0E68D8 2%, #36d7b7 95%);
+  color: #F5F5F5;
+  border-color: #303030;
+  transition: 0.5s;
+}
+
+.nav-menu-items {
+  width: 400px;
+}
+
+.navbar-toggle {
+  background-color: #282828;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-title {
+  margin-left: 12px;
+}

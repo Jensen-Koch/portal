@@ -1,0 +1,43 @@
+.procurement-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.link-wrapper {
+  position: relative;
+}
+
+.chart-button {
+  position: absolute;
+  top: 4px;
+  right: 15px;
+  padding: 5px 12px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 300;
+  color: #484848;
+  background-color: #F0F0F0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+}
+
+.chart-button:hover {
+  background: linear-gradient(90deg, #0E68D8 2%, #36d7b7 95%);
+  color: #F5F5F5;
+  border-color: #303030;
+  transition: 0.5s;
+}
+
+.chart-button:not(:hover) {
+  transition: 0.7s;
+}
+
+.procurement-container:hover .chart-button {
+  display: initial;
+}

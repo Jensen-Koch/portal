@@ -1,0 +1,42 @@
+.charts-container {  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: center;
+  width: 50%;
+  position: relative;
+}
+
+.spinner-container {
+  position: absolute;
+  top: 165px;
+}
+
+.chart-frame {
+  padding: 5px;
+  box-shadow: 3px 3px 10px 2px #ccc;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-width: 20px;
+  width: 100%;
+  border: 1px solid #D0D0D0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.chart-frame:hover {
+  box-shadow: 5px 5px 15px 5px #ccc;
+  transition: 0.1s;
+}
+
+.chart-frame:not(:hover) {
+  transition: 0.7s;
+}
+
+@media (max-width: 767px) {
+  .charts-container {
+    width: 100%;
+  }
+}
