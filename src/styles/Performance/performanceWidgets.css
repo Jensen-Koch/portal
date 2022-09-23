@@ -1,4 +1,4 @@
-.shared-services-container {
+.widget-container {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -38,7 +38,7 @@
     transition: 0.7s;
   }
   
-  .shared-services-container:hover .chart-button {
+  .widget-container:hover .chart-button {
     display: initial;
   }
   

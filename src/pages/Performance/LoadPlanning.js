@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../styles/Performance/loadPlanning.css'
+import '../../styles/Performance/performanceWidgets.css'
 import Charts from '../../components/Charts'
 import { loadPlanning } from '../../components/data/Performance'
 
 const LoadPlanning = () => {
   return (
-    <div className="load-planning-container">
+    <div className="widget-container">
         {loadPlanning.map((data) => (
           <>
             <Charts url={data.url} title={data.title} />

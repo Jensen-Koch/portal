@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../styles/Performance/recordManagement.css'
+import '../../styles/Performance/performanceWidgets.css'
 import Charts from '../../components/Charts'
 import { recordManagement } from '../../components/data/Performance'
 
 const RecordManagement = () => {
   return (
-    <div className="record-management-container">
+    <div className="widget-container">
         {recordManagement.map((data) => (
           <>
             <Charts url={data.url} title={data.title} />

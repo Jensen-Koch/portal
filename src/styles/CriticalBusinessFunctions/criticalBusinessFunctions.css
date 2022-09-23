@@ -1,0 +1,39 @@
+.critical-business-functions {
+    text-align: center;
+  }  
+  
+  .title {
+    font-size: 25px;
+    padding: 25px;
+  }
+  
+  .critical-business-functions-links {
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+  
+  .link {
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #484848;
+    background-color: #E8E8E8;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .link:hover {
+    background: linear-gradient(90deg, #0E68D8 2%, #36d7b7 95%);
+    color: #F5F5F5;
+    transition: 0.5s;
+  }
+  
+  .link:not(:hover) {
+    transition: 0.7s;
+  }

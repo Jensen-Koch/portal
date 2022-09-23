@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../styles/Performance/procurement.css'
+import '../../styles/Performance/performanceWidgets.css'
 import Charts from '../../components/Charts'
 import { procurement } from '../../components/data/Performance'
 
 const Procurement = () => {
   return (
-    <div className="procurement-container">
+    <div className="widget-container">
         {procurement.map((data) => (
           <>
             <Charts url={data.url} title={data.title} />

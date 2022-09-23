@@ -24,10 +24,9 @@ const Charts = (props) => {
       <iframe 
         alt="new relic chart" 
         className="chart-frame"
+        title="new relic chart"
         src={nrChartUrl.href} 
         scrolling="no"
-        width="100%"
-        height="350px"
         onLoad={() => setLoading(false)}
         onLoadStart={() => setLoading(true)}
       />

@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../styles/Performance/sharedServices.css'
+import '../../styles/Performance/performanceWidgets.css'
 import Charts from '../../components/Charts'
 import { sharedServices } from '../../components/data/Performance'
 
 const SharedServices = () => {
   return (
-    <div className="shared-services-container">
+    <div className="widget-container">
         {sharedServices.map((data) => (
           <>
             <Charts url={data.url} title={data.title} />

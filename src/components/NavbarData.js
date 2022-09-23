@@ -19,25 +19,25 @@ export const NavbarData = [
   },
   {
     title: 'Infrastructure',
-    path: '/infrastructure',
+    path: '/infrastructure/topKafkaLag',
     icon: <SiApachekafka />,
     cName: 'nav-text'
   },
   {
     title: 'Integrations',
-    path: '/integrations',
+    path: '/integrations/integrationsPage',
     icon: <GiHandTruck />,
     cName: 'nav-text'
   },
   {
     title: 'Interfaces',
-    path: '/interfaces',
+    path: '/interfaces/load',
     icon: <FaSitemap />,
     cName: 'nav-text'
   },
   {
     title: 'Critical Business Functions',
-    path: '/criticalbusinessfunctions',
+    path: '/criticalbusinessfunctions/cbf',
     icon: <FaUsers />,
     cName: 'nav-text'
   },

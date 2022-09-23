@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../styles/Performance/accounting.css'
+import '../../styles/Performance/performanceWidgets.css'
 import Charts from '../../components/Charts'
 import { accounting } from '../../components/data/Performance'
 
 const Accounting = () => {
   return (
-    <div className="accounting-container">
+    <div className="widget-container">
         {accounting.map((data) => (
           <>
             <Charts url={data.url} title={data.title} />

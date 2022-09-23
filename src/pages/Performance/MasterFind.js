@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../styles/Performance/masterFind.css'
+import '../../styles/Performance/performanceWidgets.css'
 import Charts from '../../components/Charts'
 import { masterFind } from '../../components/data/Performance'
 
 const MasterFind = () => {
   return (
-    <div className="masterfind-container">
+    <div className="widget-container">
         {masterFind.map((data) => (
           <>
             <Charts url={data.url} title={data.title} />

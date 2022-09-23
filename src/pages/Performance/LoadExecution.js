@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../styles/Performance/loadExecution.css'
+import '../../styles/Performance/performanceWidgets.css'
 import Charts from '../../components/Charts'
 import { loadExecution } from '../../components/data/Performance'
 
 const LoadExecution = () => {
   return (
-    <div className="load-execution-container">
+    <div className="widget-container">
         {loadExecution.map((data) => (
           <>
             <Charts url={data.url} title={data.title} />
