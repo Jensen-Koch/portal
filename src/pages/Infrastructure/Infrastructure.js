@@ -15,10 +15,10 @@ const Infrastructure = () => {
         <Link className="link" to="/infrastructure/integrationsAPI">Integrations - API</Link>
         <Link className="link" to="/infrastructure/integrationsEDI">Integrations - EDI</Link>
         <Link className="link" to="/infrastructure/loadBooking">Load Booking</Link>
-        <Link className="link" to="/infrastructure/loadExecution2">Load Execution</Link>
+        <Link className="link" to="/infrastructure/loadExecutionInfrastructure">Load Execution</Link>
         <Link className="link" to="/infrastructure/procurementCapacity">Procurement Capacity</Link>
-        <Link className="link" to="/infrastructure/recordManagement2">Record Management</Link>
-        <Link className="link" to="/infrastructure/sharedServices2">Shared Services</Link>
+        <Link className="link" to="/infrastructure/recordManagementInfrastructure">Record Management</Link>
+        <Link className="link" to="/infrastructure/sharedServicesInfrastructure">Shared Services</Link>
         <Link className="link" to="/infrastructure/sharedServicesLSE">Shared Services - LSE</Link>
         <Link className="link" to="/infrastructure/masteryAPI">Mastery API</Link>
       </div>
