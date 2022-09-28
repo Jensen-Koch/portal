@@ -20,7 +20,7 @@ const Navigation = () => {
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
-          <img className="logo-nav" src={logo} alt="Logo" />
+          <Link to="/"><img className="logo-nav" src={logo} alt="Logo" /></Link>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className="nav-menu-items" onClick={showSidebar}>

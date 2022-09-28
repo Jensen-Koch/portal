@@ -1,14 +1,14 @@
 import React from 'react'
-import {FaSitemap, FaUsers, FaHome} from 'react-icons/fa'
-import {BsSpeedometer} from 'react-icons/bs'
+import {FaSitemap, FaUsers} from 'react-icons/fa'
+import {BsSpeedometer, BsMap} from 'react-icons/bs'
 import {SiApachekafka} from 'react-icons/si'
 import {GiHandTruck} from 'react-icons/gi'
 
 export const NavbarData = [
   {
-    title: 'Home',
+    title: 'Diagram',
     path: '/',
-    icon: <FaHome />,
+    icon: <FaSitemap />,
     cName: 'nav-text'
   },
   {
@@ -32,7 +32,7 @@ export const NavbarData = [
   {
     title: 'Interfaces',
     path: '/interfaces/load',
-    icon: <FaSitemap />,
+    icon: <BsMap />,
     cName: 'nav-text'
   },
   {

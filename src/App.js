@@ -3,7 +3,7 @@ import "./App.css"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 import Navigation from './components/Navigation'
-import Home from './pages/Home'
+import Diagram from './pages/Diagram'
 
 import Performance from './pages/Performance/Performance'
 import LoadPlanning from './pages/Performance/LoadPlanning'
@@ -60,8 +60,8 @@ const App = () => {
       <Router>
           <Navigation/>
         <Routes>
-          
-          <Route path="/" element={<Home/>}/>
+
+          <Route exact path="/" element={<Diagram/>}/>
 
           <Route path="performance" element={<Performance/>}>
             <Route path="loadPlanning" element={<LoadPlanning/>}/>
